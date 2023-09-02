@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xml:lang='ja' version='2005-1' xmlns='http://www.daisy.org/z3986/2005/ncx/'>
+  <head>
+    <meta content='1' name='dtb:depth'/>
+    <meta content='0' name='dtb:totalPageCount'/>
+    <meta content='0' name='dtb:maxPageNumber'/>
+  <meta content='urn:uuid:da993490-1ac3-0130-2aa1-482a142cf2ad' name='dtb:uid'/></head>
+  <docTitle><text/></docTitle>
+  <navMap><navPoint id='id-1' playOrder='1'><navLabel><text>ヘッドフォンアクターＩ</text></navLabel><content src='a_1_6.xhtml#id--280a9359c0b91559'/></navPoint><navPoint id='id-2' playOrder='2'><navLabel><text>夕景イエスタデイＩ</text></navLabel><content src='a_1_7.xhtml#id-3e2f7085ae78aaf9'/></navPoint><navPoint id='id-3' playOrder='3'><navLabel><text>ヘッドフォンアクターII</text></navLabel><content src='a_1_8.xhtml#id-13e8c07d85e2f319'/></navPoint><navPoint id='id-4' playOrder='4'><navLabel><text>夕景イエスタデイII</text></navLabel><content src='a_1_9.xhtml#id--3d780fa4bbf5e897'/></navPoint><navPoint id='id-5' playOrder='5'><navLabel><text>ヘッドフォンアクター</text></navLabel><content src='a_1_10.xhtml#id--339798fddcd26c5'/></navPoint><navPoint id='id-6' playOrder='6'><navLabel><text>夕景イエスタデイ</text></navLabel><content src='a_1_12.xhtml#id-2b2887b59a276d95'/></navPoint><navPoint id='id-7' playOrder='7'><navLabel><text>ヘッドフォンアクターIV</text></navLabel><content src='a_1_14.xhtml#id--944789ebedbeffd'/></navPoint><navPoint id='id-8' playOrder='8'><navLabel><text>追想フォレスト</text></navLabel><content src='a_1_19.xhtml#id-b34932e0d231e8'/></navPoint><navPoint id='id-9' playOrder='9'><navLabel><text>～あとがき『目もあてられない話』～</text></navLabel><content src='a_1_20.xhtml#id-15663237478f34b6'/></navPoint><navPoint id='id-10' playOrder='10'><navLabel><text>SPECIAL BOOKLET</text></navLabel><content src='a_1_22.svg'/></navPoint></navMap>
+</ncx>

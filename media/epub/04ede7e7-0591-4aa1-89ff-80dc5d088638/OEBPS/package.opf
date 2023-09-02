@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+ xmlns="http://www.idpf.org/2007/opf"
+ version="3.0"
+ xml:lang="ja"
+ unique-identifier="pub-id"
+ prefix="ebpaj: http://www.ebpaj.jp/
+         rendition: http://www.idpf.org/vocab/rendition/#
+         access: http://www.access-company.com/2012/layout#"
+>
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:identifier id="pub-id">urn:uuid:ab09cd70-1ac3-0130-2a9e-482a142cf2ad</dc:identifier>
+<dc:creator id="creator1">じん（自然の敵Ｐ）</dc:creator>
+<meta refines="#creator1" property="role" scheme="marc:relators" id="role">aut</meta>
+<meta refines="#creator1" property="display-seq">1</meta>
+<dc:title>カゲロウデイズ　-in a daze-　SPECIAL EDITION</dc:title>
+<dc:publisher>角川コンテンツゲート</dc:publisher>
+<dc:language>ja</dc:language>
+<meta property="dcterms:modified">2012-11-27T13:24:49Z</meta>
+<meta name="cover" content="id113"/>
+</metadata>
+
+<manifest>
+<item id="id1" href="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+<item id="id2" href="a_1_1.svg" media-type="image/svg+xml" fallback="id3"/>
+<item id="id3" href="a_1_1.xhtml" media-type="application/xhtml+xml"/>
+<item id="id5" href="a_1_2.xhtml" media-type="application/xhtml+xml"/>
+<item id="id6" href="a_1_3.xhtml" media-type="application/xhtml+xml"/>
+<item id="id7" href="a_1_4.xhtml" media-type="application/xhtml+xml"/>
+<item id="id8" href="a_1_5.xhtml" media-type="application/xhtml+xml"/>
+<item id="id9" href="a_1_6.xhtml" media-type="application/xhtml+xml"/>
+<item id="id10" href="a_1_7.xhtml" media-type="application/xhtml+xml"/>
+<item id="id11" href="a_1_8.xhtml" media-type="application/xhtml+xml"/>
+<item id="id12" href="a_1_9.xhtml" media-type="application/xhtml+xml"/>
+<item id="id13" href="a_1_10.xhtml" media-type="application/xhtml+xml"/>
+<item id="id14" href="a_1_11.xhtml" media-type="application/xhtml+xml"/>
+<item id="id15" href="a_1_12.xhtml" media-type="application/xhtml+xml"/>
+<item id="id16" href="a_1_13.xhtml" media-type="application/xhtml+xml"/>
+<item id="id17" href="a_1_14.xhtml" media-type="application/xhtml+xml"/>
+<item id="id18" href="a_1_15.xhtml" media-type="application/xhtml+xml"/>
+<item id="id19" href="a_1_16.xhtml" media-type="application/xhtml+xml"/>
+<item id="id20" href="a_1_17.svg" media-type="image/svg+xml" fallback="id21"/>
+<item id="id21" href="a_1_17.xhtml" media-type="application/xhtml+xml"/>
+<item id="id22" href="a_1_18.svg" media-type="image/svg+xml" fallback="id23"/>
+<item id="id23" href="a_1_18.xhtml" media-type="application/xhtml+xml"/>
+<item id="id24" href="a_1_19.svg" media-type="image/svg+xml" fallback="id25"/>
+<item id="id25" href="a_1_19.xhtml" media-type="application/xhtml+xml"/>
+<item id="id26" href="a_1_20.svg" media-type="image/svg+xml" fallback="id27"/>
+<item id="id27" href="a_1_20.xhtml" media-type="application/xhtml+xml"/>
+<item id="id28" href="a_1_21.svg" media-type="image/svg+xml" fallback="id29"/>
+<item id="id29" href="a_1_21.xhtml" media-type="application/xhtml+xml"/>
+<item id="id30" href="a_1_22.svg" media-type="image/svg+xml" fallback="id31"/>
+<item id="id31" href="a_1_22.xhtml" media-type="application/xhtml+xml"/>
+<item id="id32" href="a_1_23.svg" media-type="image/svg+xml" fallback="id33"/>
+<item id="id33" href="a_1_23.xhtml" media-type="application/xhtml+xml"/>
+<item id="id34" href="a_1_24.svg" media-type="image/svg+xml" fallback="id35"/>
+<item id="id35" href="a_1_24.xhtml" media-type="application/xhtml+xml"/>
+<item id="id36" href="a_1_25.svg" media-type="image/svg+xml" fallback="id37"/>
+<item id="id37" href="a_1_25.xhtml" media-type="application/xhtml+xml"/>
+<item id="id38" href="a_1_26.svg" media-type="image/svg+xml" fallback="id39"/>
+<item id="id39" href="a_1_26.xhtml" media-type="application/xhtml+xml"/>
+<item id="id40" href="a_1_27.svg" media-type="image/svg+xml" fallback="id41"/>
+<item id="id41" href="a_1_27.xhtml" media-type="application/xhtml+xml"/>
+<item id="id42" href="a_1_28.svg" media-type="image/svg+xml" fallback="id43"/>
+<item id="id43" href="a_1_28.xhtml" media-type="application/xhtml+xml"/>
+<item id="id44" href="a_1_29.svg" media-type="image/svg+xml" fallback="id45"/>
+<item id="id45" href="a_1_29.xhtml" media-type="application/xhtml+xml"/>
+<item id="id46" href="a_1_30.svg" media-type="image/svg+xml" fallback="id47"/>
+<item id="id47" href="a_1_30.xhtml" media-type="application/xhtml+xml"/>
+<item id="id48" href="a_1_31.xhtml" media-type="application/xhtml+xml"/>
+<item id="id49" href="a_1_h_1.css" media-type="text/css"/>
+<item id="id50" href="a_1_h_2.css" media-type="text/css"/>
+<item id="id51" href="a_1_h_3.css" media-type="text/css"/>
+<item id="id52" href="a_1_h_4.css" media-type="text/css"/>
+<item id="id53" href="a_1_h_5.css" media-type="text/css"/>
+<item id="id54" href="a_1_h_6.css" media-type="text/css"/>
+<item id="id55" href="a_1_h_7.css" media-type="text/css"/>
+<item id="id56" href="a_1_h_8.css" media-type="text/css"/>
+<item id="id57" href="a_1_h_9.css" media-type="text/css"/>
+<item id="id58" href="a_1_h_10.css" media-type="text/css"/>
+<item id="id59" href="a_1_h_11.css" media-type="text/css"/>
+<item id="id60" href="a_1_h_12.css" media-type="text/css"/>
+<item id="id61" href="a_1_h_13.css" media-type="text/css"/>
+<item id="id62" href="a_1_h_14.css" media-type="text/css"/>
+<item id="id63" href="a_1_h_15.css" media-type="text/css"/>
+<item id="id64" href="a_1_h_16.css" media-type="text/css"/>
+<item id="id65" href="a_1_h_17.css" media-type="text/css"/>
+<item id="id66" href="a_1_h_18.css" media-type="text/css"/>
+<item id="id67" href="a_1_h_19.css" media-type="text/css"/>
+<item id="id68" href="a_1_h_20.css" media-type="text/css"/>
+<item id="id69" href="a_1_h_21.css" media-type="text/css"/>
+<item id="id70" href="a_1_h_22.css" media-type="text/css"/>
+<item id="id71" href="a_1_h_23.css" media-type="text/css"/>
+<item id="id72" href="a_1_h_24.css" media-type="text/css"/>
+<item id="id73" href="a_1_h_25.css" media-type="text/css"/>
+<item id="id74" href="a_1_h_26.css" media-type="text/css"/>
+<item id="id75" href="a_1_h_27.css" media-type="text/css"/>
+<item id="id76" href="a_1_h_28.css" media-type="text/css"/>
+<item id="id77" href="a_1_h_29.css" media-type="text/css"/>
+<item id="id78" href="a_1_h_30.css" media-type="text/css"/>
+<item id="id79" href="a_1_h_31.css" media-type="text/css"/>
+<item id="id80" href="a_1_v_1.css" media-type="text/css"/>
+<item id="id81" href="a_1_v_2.css" media-type="text/css"/>
+<item id="id82" href="a_1_v_3.css" media-type="text/css"/>
+<item id="id83" href="a_1_v_4.css" media-type="text/css"/>
+<item id="id84" href="a_1_v_5.css" media-type="text/css"/>
+<item id="id85" href="a_1_v_6.css" media-type="text/css"/>
+<item id="id86" href="a_1_v_7.css" media-type="text/css"/>
+<item id="id87" href="a_1_v_8.css" media-type="text/css"/>
+<item id="id88" href="a_1_v_9.css" media-type="text/css"/>
+<item id="id89" href="a_1_v_10.css" media-type="text/css"/>
+<item id="id90" href="a_1_v_11.css" media-type="text/css"/>
+<item id="id91" href="a_1_v_12.css" media-type="text/css"/>
+<item id="id92" href="a_1_v_13.css" media-type="text/css"/>
+<item id="id93" href="a_1_v_14.css" media-type="text/css"/>
+<item id="id94" href="a_1_v_15.css" media-type="text/css"/>
+<item id="id95" href="a_1_v_16.css" media-type="text/css"/>
+<item id="id96" href="a_1_v_17.css" media-type="text/css"/>
+<item id="id97" href="a_1_v_18.css" media-type="text/css"/>
+<item id="id98" href="a_1_v_19.css" media-type="text/css"/>
+<item id="id99" href="a_1_v_20.css" media-type="text/css"/>
+<item id="id100" href="a_1_v_21.css" media-type="text/css"/>
+<item id="id101" href="a_1_v_22.css" media-type="text/css"/>
+<item id="id102" href="a_1_v_23.css" media-type="text/css"/>
+<item id="id103" href="a_1_v_24.css" media-type="text/css"/>
+<item id="id104" href="a_1_v_25.css" media-type="text/css"/>
+<item id="id105" href="a_1_v_26.css" media-type="text/css"/>
+<item id="id106" href="a_1_v_27.css" media-type="text/css"/>
+<item id="id107" href="a_1_v_28.css" media-type="text/css"/>
+<item id="id108" href="a_1_v_29.css" media-type="text/css"/>
+<item id="id109" href="a_1_v_30.css" media-type="text/css"/>
+<item id="id110" href="a_1_v_31.css" media-type="text/css"/>
+<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+<item id="id111" href="nav_h.css" media-type="text/css"/>
+<item id="id112" href="nav_v.css" media-type="text/css"/>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="id113" href="image/o_cover.jpg" media-type="image/jpeg"/>
+<item id="id114" href="image/o_1.jpg" media-type="image/jpeg"/>
+<item id="id115" href="image/o_10.jpg" media-type="image/jpeg"/>
+<item id="id116" href="image/o_11.jpg" media-type="image/jpeg"/>
+<item id="id117" href="image/o_12.jpg" media-type="image/jpeg"/>
+<item id="id118" href="image/o_13.jpg" media-type="image/jpeg"/>
+<item id="id119" href="image/o_14.jpg" media-type="image/jpeg"/>
+<item id="id120" href="image/o_2.jpg" media-type="image/jpeg"/>
+<item id="id121" href="image/o_3.jpg" media-type="image/jpeg"/>
+<item id="id122" href="image/o_4.jpg" media-type="image/jpeg"/>
+<item id="id123" href="image/o_5.jpg" media-type="image/jpeg"/>
+<item id="id124" href="image/o_6.jpg" media-type="image/jpeg"/>
+<item id="id125" href="image/o_7.jpg" media-type="image/jpeg"/>
+<item id="id126" href="image/o_8.jpg" media-type="image/jpeg"/>
+<item id="id127" href="image/o_9.jpg" media-type="image/jpeg"/>
+<item id="id128" href="image/o_k001.jpg" media-type="image/jpeg"/>
+<item id="id129" href="image/o_p023.jpg" media-type="image/jpeg"/>
+<item id="id130" href="image/o_p071.jpg" media-type="image/jpeg"/>
+<item id="id131" href="image/o_p095.jpg" media-type="image/jpeg"/>
+<item id="id132" href="image/o_p115.jpg" media-type="image/jpeg"/>
+<item id="id133" href="image/o_p145.jpg" media-type="image/jpeg"/>
+<item id="id134" href="image/o_p229.jpg" media-type="image/jpeg"/>
+<item id="id135" href="image/o_p239.jpg" media-type="image/jpeg"/>
+<item id="id136" href="image/o_p255.jpg" media-type="image/jpeg"/>
+<item id="id137" href="image/ec_000000_png_bikkuri.png" media-type="image/png"/>
+<item id="id138" href="image/ec_000000_png_maru01.png" media-type="image/png"/>
+<item id="id139" href="image/ec_000000_png_roma03.png" media-type="image/png"/>
+<item id="fit-style" href="fit-style.css" media-type="text/css"/>
+</manifest>
+
+<spine toc="ncx" page-progression-direction="rtl">
+<itemref idref="id2"/>
+<itemref idref="id5" properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-horizontal access:orientation-portrait"/>
+<itemref idref="id6"/>
+<itemref idref="id7"/>
+<itemref idref="id8"/>
+<itemref idref="id9"/>
+<itemref idref="id10"/>
+<itemref idref="id11"/>
+<itemref idref="id12"/>
+<itemref idref="id13"/>
+<itemref idref="id14"/>
+<itemref idref="id15"/>
+<itemref idref="id16"/>
+<itemref idref="id17"/>
+<itemref idref="id18"/>
+<itemref idref="id19"/>
+<itemref idref="id20"/>
+<itemref idref="id22"/>
+<itemref idref="id24"/>
+<itemref idref="id26"/>
+<itemref idref="id28"/>
+<itemref idref="id30"/>
+<itemref idref="id32"/>
+<itemref idref="id34"/>
+<itemref idref="id36"/>
+<itemref idref="id38"/>
+<itemref idref="id40"/>
+<itemref idref="id42"/>
+<itemref idref="id44"/>
+<itemref idref="id46"/>
+<itemref idref="id48"/>
+</spine>
+
+<guide>
+<reference type="cover" href="cover.svg"/>
+</guide>
+</package>

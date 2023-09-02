@@ -1,0 +1,120 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: vertical-rl;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.default-sideways {
+-epub-text-orientation: sideways;
+}
+.default-upright {
+-epub-text-orientation: upright;
+}
+.c4040 {
+background-color: #FFFFFF; color: #000000;
+}
+.c4041 {
+page-break-after: always; display: block; -epub-writing-mode: vertical-rl; height: 100%;
+}
+.c4042 {
+text-align: justify; display: block;
+}
+.c4042 rt {
+font-size: 50%;
+}
+.c4042 hr {
+border-style: none; background-color: #000000; width: 5px; height: 100%;
+}
+.c4042 hr:last-child {
+margin-left: 0;
+}
+.c4043 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4044 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4045 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4046 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4047 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4048 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4049 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4050 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4051 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4052 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4053 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4054 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4055 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4056 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4057 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4058 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4059 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4060 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4061 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4062 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4063 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4064 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4065 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c4066 {
+color: #000000; font-family: sans-serif,sans-serif; font-size: 1.0em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c4067 {
+line-height: 1; text-indent: 0; -epub-writing-mode: horizontal-tb;
+}
+html {
+-epub-writing-mode: vertical-rl;
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+ xmlns="http://www.idpf.org/2007/opf"
+ version="3.0"
+ xml:lang="ja"
+ unique-identifier="bw-ecode"
+ prefix="ebpaj:     http://www.ebpaj.jp/
+         rendition: http://www.idpf.org/vocab/rendition/#
+         access:    http://www.access-company.com/2012/layout#
+         ibooks:    http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0"
+>
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- 作品名 -->
+<dc:title id="title">カゲロウデイズⅤ -the deceiving-</dc:title>
+<meta refines="#title" property="file-as">カゲロウデイズ5</meta>
+
+<!-- 著者名 -->
+<dc:creator id="creator01">じん（自然の敵P）</dc:creator>
+<meta refines="#creator01" property="role" scheme="marc:relators">aut</meta>
+<meta refines="#creator01" property="file-as">ジン（シゼンノテキピー）</meta>
+<meta refines="#creator01" property="display-seq">1</meta>
+
+<!-- 出版社名 -->
+<dc:publisher id="publisher">株式会社KADOKAWA（企画・制作　エンターブレイン）</dc:publisher>
+<meta refines="#publisher" property="file-as">カブシキガイシャカドカワキカクセイサクエンターブレイン</meta>
+
+<!-- 言語 -->
+<dc:language>ja</dc:language>
+
+<!-- ファイルid -->
+<dc:identifier id="bw-ecode">04729530A03582900000</dc:identifier>
+
+<!-- 更新日 -->
+<meta property="dcterms:modified">2014-03-18T00:00:00Z</meta>
+
+<!-- etc. -->
+<meta property="ebpaj:guide-version">1.1.2</meta>
+<meta property="ibooks:specified-fonts">true</meta>
+<meta name="cover" content="cover"/>
+
+<!-- 角川書店EPUB制作仕様 ver.2.0.2 -->
+
+</metadata>
+
+<manifest>
+
+<!-- navigation -->
+<item media-type="application/x-dtbncx+xml" id="ncx" href="toc.ncx"/>
+<item media-type="application/xhtml+xml"    id="nav" href="navigation-documents.xhtml" properties="nav"/>
+
+<!-- style -->
+<item media-type="text/css" id="book-style"     href="style/book-style.css"/>
+<item media-type="text/css" id="style-reset"    href="style/style-reset.css"/>
+<item media-type="text/css" id="style-standard" href="style/style-standard.css"/>
+<item media-type="text/css" id="style-advance"  href="style/style-advance.css"/>
+<item media-type="text/css" id="style-check"    href="style/style-check.css"/>
+<item media-type="text/css" id="style-kadokawa" href="style/style-kadokawa.css"/>
+
+<!-- image -->
+<item media-type="image/jpeg" id="cover"            href="image/cover.jpg" properties="cover-image"/>
+<item media-type="image/png"  id="bookwalker"       href="image/bookwalker.png"/>
+<item media-type="image/jpeg" id="k001"         href="image/k001.jpg"/>
+<item media-type="image/jpeg" id="p011"         href="image/p011.jpg"/>
+<item media-type="image/jpeg" id="p029"         href="image/p029.jpg"/>
+<item media-type="image/jpeg" id="p069"         href="image/p069.jpg"/>
+<item media-type="image/jpeg" id="p079"         href="image/p079.jpg"/>
+<item media-type="image/jpeg" id="p103"         href="image/p103.jpg"/>
+<item media-type="image/jpeg" id="p155"         href="image/p155.jpg"/>
+<item media-type="image/jpeg" id="p176"         href="image/p176.jpg"/>
+<item media-type="image/jpeg" id="p190"         href="image/p190.jpg"/>
+<item media-type="image/jpeg" id="p194"         href="image/p194.jpg"/>
+<item media-type="image/jpeg" id="p198"         href="image/p198.jpg"/>
+<item media-type="image/jpeg" id="p226"         href="image/p226.jpg"/>
+<item media-type="image/jpeg" id="p227"         href="image/p227.jpg"/>
+<item media-type="image/jpeg" id="p228"         href="image/p228.jpg"/>
+<item media-type="image/jpeg" id="p229"         href="image/p229.jpg"/>
+<item media-type="image/jpeg" id="p230"         href="image/p230.jpg"/>
+<item media-type="image/jpeg" id="p231"         href="image/p231.jpg"/>
+<item media-type="image/jpeg" id="p232"         href="image/p232.jpg"/>
+<item media-type="image/jpeg" id="p233"         href="image/p233.jpg"/>
+<item media-type="image/jpeg" id="p234"         href="image/p234.jpg"/>
+<item media-type="image/jpeg" id="p235"         href="image/p235.jpg"/>
+<item media-type="image/jpeg" id="p236"         href="image/p236.jpg"/>
+<item media-type="image/jpeg" id="p237"         href="image/p237.jpg"/>
+<item media-type="image/jpeg" id="p238"         href="image/p238.jpg"/>
+<item media-type="image/jpeg" id="p239"         href="image/p239.jpg"/>
+<item media-type="image/jpeg" id="p240"         href="image/p240.jpg"/>
+<item media-type="image/jpeg" id="p241"         href="image/p241.jpg"/>
+<item media-type="image/png" id="roma05"         href="image/roma05.png"/>
+<item media-type="image/png" id="roma05_g"         href="image/roma05_g.png"/>
+<item media-type="image/png" id="bixtukurisann"         href="image/bixtukurisann.png"/>
+<item media-type="image/png" id="No"         href="image/No.png"/>
+
+<!-- xhtml -->
+<item media-type="application/xhtml+xml" id="p-cover"       href="xhtml/p-cover.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-fmatter-001"     href="xhtml/p-fmatter-001.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-titlepage"   href="xhtml/p-titlepage.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-caution"     href="xhtml/p-caution.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-001"         href="xhtml/p-001.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-toc-001"     href="xhtml/p-toc-001.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-002"         href="xhtml/p-002.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-003"         href="xhtml/p-003.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-004"         href="xhtml/p-004.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-005"         href="xhtml/p-005.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-006"         href="xhtml/p-006.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-007"         href="xhtml/p-007.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-008"         href="xhtml/p-008.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-009"         href="xhtml/p-009.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-010"         href="xhtml/p-010.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-011"         href="xhtml/p-011.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-012"         href="xhtml/p-012.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-013"         href="xhtml/p-013.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-014"         href="xhtml/p-014.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-015"         href="xhtml/p-015.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-016"         href="xhtml/p-016.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-017"         href="xhtml/p-017.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-018"         href="xhtml/p-018.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-019"         href="xhtml/p-019.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-020"         href="xhtml/p-020.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-021"         href="xhtml/p-021.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-022"         href="xhtml/p-022.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-023"         href="xhtml/p-023.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-024"         href="xhtml/p-024.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-025"         href="xhtml/p-025.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-026"         href="xhtml/p-026.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-027"         href="xhtml/p-027.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-028"         href="xhtml/p-028.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-029"         href="xhtml/p-029.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-030"         href="xhtml/p-030.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-031"         href="xhtml/p-031.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-032"         href="xhtml/p-032.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-033"         href="xhtml/p-033.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-034"         href="xhtml/p-034.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-035"         href="xhtml/p-035.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-036"         href="xhtml/p-036.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-037"         href="xhtml/p-037.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-colophon"    href="xhtml/p-colophon.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-bookwalker"  href="xhtml/p-bookwalker.xhtml"/>
+
+</manifest>
+
+<spine page-progression-direction="rtl" toc="ncx">
+
+<itemref linear="yes" idref="p-cover"      properties="rendition:layout-pre-paginated rendition:spread-none rendition:page-spread-center"/>
+<itemref linear="yes" idref="p-fmatter-001"     properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-both access:orientation-landscape access:orientation-portrait"/>
+<itemref linear="yes" idref="p-titlepage"  properties="page-spread-left"/>
+<itemref linear="yes" idref="p-caution"/>
+<itemref linear="yes" idref="p-toc-001"    properties="page-spread-left"/>
+<itemref linear="yes" idref="p-001"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-002"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-003"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-004"/>
+<itemref linear="yes" idref="p-005"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-006"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-007"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-008"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-009"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-010"     properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-both access:orientation-portrait"/>
+<itemref linear="yes" idref="p-011"/>
+<itemref linear="yes" idref="p-012"     properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-both access:orientation-portrait"/>
+<itemref linear="yes" idref="p-013"/>
+<itemref linear="yes" idref="p-014"     properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-both access:orientation-portrait"/>
+<itemref linear="yes" idref="p-015"/>
+<itemref linear="yes" idref="p-016"     properties="rendition:layout-pre-paginated rendition:spread-none access:scroll-both access:orientation-portrait"/>
+<itemref linear="yes" idref="p-017"/>
+<itemref linear="yes" idref="p-018"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-019"/>
+<itemref linear="yes" idref="p-020"        properties="page-spread-left"/>
+<itemref linear="yes" idref="p-021"/>
+<itemref linear="yes" idref="p-022"/>
+<itemref linear="yes" idref="p-023"/>
+<itemref linear="yes" idref="p-024"/>
+<itemref linear="yes" idref="p-025"/>
+<itemref linear="yes" idref="p-026"/>
+<itemref linear="yes" idref="p-027"/>
+<itemref linear="yes" idref="p-028"/>
+<itemref linear="yes" idref="p-029"/>
+<itemref linear="yes" idref="p-030"/>
+<itemref linear="yes" idref="p-031"/>
+<itemref linear="yes" idref="p-032"/>
+<itemref linear="yes" idref="p-033"/>
+<itemref linear="yes" idref="p-034"/>
+<itemref linear="yes" idref="p-035"/>
+<itemref linear="yes" idref="p-036"/>
+<itemref linear="yes" idref="p-037"/>
+<itemref linear="yes" idref="p-colophon"   properties="page-spread-left"/>
+<itemref linear="yes" idref="p-bookwalker" properties="rendition:layout-pre-paginated rendition:spread-none rendition:page-spread-center"/>
+
+</spine>
+
+</package>

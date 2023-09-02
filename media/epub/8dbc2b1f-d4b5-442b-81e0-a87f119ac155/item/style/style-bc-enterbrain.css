@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+
+/* ファイル情報
+----------------------------------------------------------------
+【内容】
+エンターブレイン仕様スタイル
+
+【バージョン】
+ver.1.0.0
+
+【細目】
+・既存クラス上書き指定
+・ページ設定
+
+【更新履歴】
+2014/09/01 ver.1.0.0
+・公開版
+---------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------
+ * 既存クラス上書き指定
+ * ------------------------------------------------------------- */
+
+
+/* リンク指定
+---------------------------------------------------------------- */
+.hltr a,
+.vrtl a   { text-decoration: none; }
+a:link    { color: #000000; }
+a:visited { color: #000000; }
+a:hover   { color: #696969; }
+a:focus   { color: #696969; }
+a:active  { color: #696969; }
+
+/* 注釈リンクの下線と色 */
+.hltr a.cyu,
+.vrtl a.cyu   { text-decoration: none; }
+a.cyu:link    { color: #000000; }
+a.cyu:visited { color: #000000; }
+a.cyu:hover   { color: #696969; }
+a.cyu:focus   { color: #696969; }
+a.cyu:active  { color: #696969; }
+
+
+
+/* -------------------------------------------------------------
+ * クラス追加指定
+ * ------------------------------------------------------------- */
+
+
+/* 本扉（エンターブレイン）
+---------------------------------------------------------------- */
+/* ページ全体の設定 */
+.p-titlepage-eb {
+}
+.p-titlepage-eb .main {
+  margin:         0 auto 0 auto;
+  padding:        4em 1em 1.5em 1em;
+  max-width:      22em;
+  text-align:     center;
+  line-height:    1.6;
+}
+/* 作品名 */
+.p-titlepage-eb .book-title {
+  margin:         0;
+  padding:        0;
+}
+.p-titlepage-eb .book-title-before {
+  margin:         0;
+  padding:        0;
+  font-size:      1.0em;
+}
+.p-titlepage-eb .book-title-main {
+  margin:         0;
+  padding:        0;
+  font-size:      1.2em;
+}
+.p-titlepage-eb .book-title-after {
+  margin:         0;
+  padding:        0;
+  font-size:      1.0em;
+}
+.p-titlepage-eb .book-title-demo {
+  margin:         1.5em 0 0 0;
+  padding:        0;
+  font-size:      1.0em;
+}
+/* 著者名 */
+.p-titlepage-eb .author {
+  margin:         0;
+  padding:        0;
+}
+.p-titlepage-eb .author p {
+  margin:         0.5em 0 0 0;
+  padding:        0;
+}
+/* レーベルロゴ部分 */
+.p-titlepage-eb .label {
+  margin:         0;
+  padding:        0.4em 0 0.3em 0;
+  line-height:    1.2;
+}
+/* レーベルロゴ部分のロゴ画像 */
+.p-titlepage-eb .label-logo img {
+  height:         2em;
+}
+/* レーベルロゴ部分のレーベル名 */
+.p-titlepage-eb .label-name {
+  margin:         0;
+  padding:        0;
+  font-size:      0.8em;
+}
+
+
+/* 奥付（エンターブレイン）
+---------------------------------------------------------------- */
+/* ページ全体の設定 */
+.p-colophon-eb {
+}
+.p-colophon-eb .main {
+  margin:         0 auto 0 auto;
+  padding:        3em 1em 1em 1em;
+  max-width:      22em;
+  text-align:     center;
+  line-height:    1.6;
+}
+/* 作品名 */
+.p-colophon-eb .book-title {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .book-title-before {
+  margin:         0;
+  padding:        0;
+  font-size:      1.0em;
+}
+.p-colophon-eb .book-title-main {
+  margin:         0;
+  padding:        0;
+  font-size:      1.2em;
+}
+.p-colophon-eb .book-title-after {
+  margin:         0;
+  padding:        0;
+  font-size:      1.0em;
+}
+/* 著者名 */
+.p-colophon-eb .author {
+}
+/* レーベルロゴ部分 */
+.p-colophon-eb .label {
+  margin:         0;
+  padding:        0 0 0.3em 0;
+  line-height:    1;
+}
+/* レーベルロゴ部分のロゴ画像 */
+.p-colophon-eb .label-logo img {
+  height:         2em;
+}
+/* レーベルロゴ部分のレーベル名 */
+.p-colophon-eb .label-name {
+  margin:         0;
+  padding:        0;
+  font-size:      0.8em;
+}
+/* デジタル発行日 */
+.p-colophon-eb .release-date {
+  margin:         0;
+  padding:        0;
+}
+/* (C)表記 */
+.p-colophon-eb .copyright {
+  margin:         0;
+  padding:        0;
+  font-size:      0.8em;
+  line-height:    1.4;
+}
+/* 制作底本情報 */
+.p-colophon-eb .original-books {
+  margin:         0;
+  padding:        0;
+  font-size:      0.8em;
+  line-height:    1.4;
+}
+.p-colophon-eb .original-title {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .original-first-edition {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .original-used-edition {
+  margin:         0;
+  padding:        0;
+}
+/* 発行者情報 */
+.p-colophon-eb .publisher-data {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-person {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-company {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-address {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-phone {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-design {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-bc-name {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-bc-address {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-bc-phone {
+  margin:         0;
+  padding:        0;
+}
+.p-colophon-eb .publish-url {
+  margin:         0;
+  padding:        0;
+}
+/* 奥付中の断り書き */
+.p-colophon-eb .kotowarigaki {
+  margin:         0;
+  padding:        0;
+  font-size:      0.8em;
+}
+
+
+/* -------------------------------------------------------------
+/* その他ページ別スタイル
+---------------------------------------------------------------- */
+/* デジタル追加文言ページの全体設定 */
+.p-caution {
+  font-size:  0.8em;
+}
+.p-tobira {
+  text-align: left;
+}

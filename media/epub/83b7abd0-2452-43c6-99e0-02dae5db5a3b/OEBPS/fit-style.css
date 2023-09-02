@@ -1,0 +1,488 @@
+@charset "UTF-8";
+
+
+/* css reset
+---------------------------------------------------------------- */
+body {
+  margin:         0;
+  padding:        0;
+  vertical-align: baseline;
+  background:     transparent;
+}
+div,p {
+  display: block;
+  width:   auto;
+  height:  auto;
+  margin:  0;
+  padding: 0;
+}
+img {
+  width:          auto;
+  height:         auto;
+  margin:         0;
+  padding:        0;
+  border:         none;
+  vertical-align: baseline;
+  background:     transparent;
+}
+
+
+/* 画像のみのページ
+---------------------------------------------------------------- */
+body.p-cover,
+body.p-image {
+  margin:     0;
+  padding:    0;
+  text-align: center;
+}
+
+
+/* 組み方向指定
+---------------------------------------------------------------- */
+/* 横組み用 */
+html,
+.hltr {
+  -webkit-writing-mode: horizontal-tb;
+  -epub-writing-mode:   horizontal-tb;
+}
+/* 縦組み用 */
+.vrtl {
+  -webkit-writing-mode: vertical-rl;
+  -epub-writing-mode:   vertical-rl;
+}
+
+
+/* 行揃え
+---------------------------------------------------------------- */
+/* 行頭揃え */
+.align-left,
+.align-start {
+  text-align: left;
+  -webkit-text-align-last: left;
+  -epub-text-align-last:   left;
+}
+/* 行中揃え */
+.align-center {
+  text-align: center;
+  -webkit-text-align-last: auto;
+  -epub-text-align-last:   auto;
+}
+/* 行末揃え */
+.align-right,
+.align-end {
+  text-align: right;
+  -webkit-text-align-last: auto;
+  -epub-text-align-last:   auto;
+}
+/* 両端揃え（行末は行頭揃え） */
+.align-justify {
+  text-align: justify;
+  -webkit-text-align-last: left;
+  -epub-text-align-last:   left;
+}
+
+
+/* ブロック要素の位置揃え
+---------------------------------------------------------------- */
+/* 絶対方向（横組みでは左右、縦組みでは上下方向のみ利用可） */
+.block-align-left   { margin: 0 auto 0 0; }
+.block-align-center { margin: 0 auto;     }
+.block-align-right  { margin: 0 0 0 auto; }
+.block-align-top    { margin: 0 0 auto 0; }
+.block-align-middle { margin: auto 0;     }
+.block-align-bottom { margin: auto 0 0 0; }
+
+/* 論理方向（行頭-行中-行末） */
+/* 横組み用 */
+.hltr .block-align-start  { margin: 0 auto 0 0; }
+.hltr .block-align-center { margin: 0 auto;     }
+.hltr .block-align-end    { margin: 0 0 0 auto; }
+
+/* 縦組み用 */
+.vrtl .block-align-start  { margin: 0 0 auto 0; }
+.vrtl .block-align-center { margin: auto 0;     }
+.vrtl .block-align-end    { margin: auto 0 0 0; }
+
+
+/* 画像のページフィット指定
+----------------------------------------------------------------
+「img.fit」を用いること
+サイズ指定上書きの都合上、CSS ファイル上では img.fit と記述しない
+
+<p><img class="fit max-height-050per" src="" alt=""/></p>
+---------------------------------------------------------------- */
+.fit {
+  display:            inline-block;
+  page-break-inside:  avoid;
+  max-height:         100%;
+  max-width:          100%;
+}
+
+/* 画像のベースライン */
+.hltr .fit {
+  vertical-align: top;
+}
+.vrtl .fit {
+  vertical-align: baseline;
+}
+
+
+/* 背景色
+---------------------------------------------------------------- */
+/* １Ｃ用背景色 */
+.bg-black       { background-color: #000000; }
+.bg-dimgray     { background-color: #696969; }
+.bg-gray        { background-color: #808080; }
+.bg-darkgray    { background-color: #a9a9a9; }
+.bg-silver      { background-color: #c0c0c0; }
+.bg-gainsboro   { background-color: #dcdcdc; }
+.bg-white       { background-color: #ffffff; }
+.bg-transparent { background-color: transparent; }
+
+/* 基本色 */
+.bg-red         { background-color: #ff0000; }
+.bg-blue        { background-color: #0000ff; }
+.bg-cyan        { background-color: #00ffff; }
+.bg-magenta     { background-color: #ff00ff; }
+.bg-orangered   { background-color: #ff4500; }
+
+
+/* 囲み罫
+---------------------------------------------------------------- */
+/* 上から実線、点線、二重線、破線 */
+.k-solid  { border-style: solid solid solid solid;     border-width: 1px; border-color: #000000; }
+.k-dotted { border-style: dotted dotted dotted dotted; border-width: 2px; border-color: #000000; }
+.k-double { border-style: double double double double; border-width: 4px; border-color: #000000; }
+.k-dashed { border-style: dashed dashed dashed dashed; border-width: 1px; border-color: #000000; }
+
+/* 線色付き囲み罫（画像枠などに利用） */
+.k-solid-black  { border-style: solid solid solid solid; border-width: 1px; border-color: #000000; }
+.k-solid-gray   { border-style: solid solid solid solid; border-width: 1px; border-color: #808080; }
+.k-solid-silver { border-style: solid solid solid solid; border-width: 1px; border-color: #c0c0c0; }
+.k-solid-white  { border-style: solid solid solid solid; border-width: 1px; border-color: #ffffff; }
+
+/* 線幅 */
+.k-0px    { border-width: 0;      }
+.k-1px    { border-width: 1px;    }
+.k-2px    { border-width: 2px;    }
+.k-3px    { border-width: 3px;    }
+.k-4px    { border-width: 4px;    }
+.k-5px    { border-width: 5px;    }
+.k-6px    { border-width: 6px;    }
+.k-7px    { border-width: 7px;    }
+.k-8px    { border-width: 8px;    }
+.k-thin   { border-width: thin;   }
+.k-medium { border-width: medium; }
+.k-thick  { border-width: thick;  }
+
+/* １Ｃ用の線色 */
+.k-black       { border-color: #000000; }
+.k-dimgray     { border-color: #696969; }
+.k-gray        { border-color: #808080; }
+.k-darkgray    { border-color: #a9a9a9; }
+.k-silver      { border-color: #c0c0c0; }
+.k-gainsboro   { border-color: #dcdcdc; }
+.k-white       { border-color: #ffffff; }
+
+/* 基本色 */
+.k-red         { border-color: #ff0000; }
+.k-blue        { border-color: #0000ff; }
+.k-cyan        { border-color: #00ffff; }
+.k-magenta     { border-color: #ff00ff; }
+.k-orangered   { border-color: #ff4500; }
+
+
+/* 字下げ・字上げ指定
+---------------------------------------------------------------- */
+/* 字下げ：横組み用 */
+.hltr .start-0,
+.hltr .start-0em   { margin-left:  0;      }
+.hltr .start-0em25 { margin-left:  0.25em; }
+.hltr .start-0em50 { margin-left:  0.50em; }
+.hltr .start-0em75 { margin-left:  0.75em; }
+.hltr .start-1em   { margin-left:  1.00em; }
+.hltr .start-1em25 { margin-left:  1.25em; }
+.hltr .start-1em50 { margin-left:  1.50em; }
+.hltr .start-1em75 { margin-left:  1.75em; }
+.hltr .start-2em   { margin-left:  2.00em; }
+.hltr .start-2em50 { margin-left:  2.50em; }
+.hltr .start-3em   { margin-left:  3.00em; }
+.hltr .start-4em   { margin-left:  4.00em; }
+.hltr .start-5em   { margin-left:  5.00em; }
+.hltr .start-6em   { margin-left:  6.00em; }
+.hltr .start-7em   { margin-left:  7.00em; }
+.hltr .start-8em   { margin-left:  8.00em; }
+.hltr .start-9em   { margin-left:  9.00em; }
+.hltr .start-10em  { margin-left: 10.00em; }
+
+/* 字下げ：縦組み用 */
+.vrtl .start-0,
+.vrtl .start-0em   { margin-top:  0;      }
+.vrtl .start-0em25 { margin-top:  0.25em; }
+.vrtl .start-0em50 { margin-top:  0.50em; }
+.vrtl .start-0em75 { margin-top:  0.75em; }
+.vrtl .start-1em   { margin-top:  1.00em; }
+.vrtl .start-1em25 { margin-top:  1.25em; }
+.vrtl .start-1em50 { margin-top:  1.50em; }
+.vrtl .start-1em75 { margin-top:  1.75em; }
+.vrtl .start-2em   { margin-top:  2.00em; }
+.vrtl .start-2em50 { margin-top:  2.50em; }
+.vrtl .start-3em   { margin-top:  3.00em; }
+.vrtl .start-4em   { margin-top:  4.00em; }
+.vrtl .start-5em   { margin-top:  5.00em; }
+.vrtl .start-6em   { margin-top:  6.00em; }
+.vrtl .start-7em   { margin-top:  7.00em; }
+.vrtl .start-8em   { margin-top:  8.00em; }
+.vrtl .start-9em   { margin-top:  9.00em; }
+.vrtl .start-10em  { margin-top: 10.00em; }
+
+/* 字上げ：横組み用 */
+.hltr .end-0,
+.hltr .end-0em   { margin-right:  0;      }
+.hltr .end-0em25 { margin-right:  0.25em; }
+.hltr .end-0em50 { margin-right:  0.50em; }
+.hltr .end-0em75 { margin-right:  0.75em; }
+.hltr .end-1em   { margin-right:  1.00em; }
+.hltr .end-1em25 { margin-right:  1.25em; }
+.hltr .end-1em50 { margin-right:  1.50em; }
+.hltr .end-1em75 { margin-right:  1.75em; }
+.hltr .end-2em   { margin-right:  2.00em; }
+.hltr .end-2em50 { margin-right:  2.50em; }
+.hltr .end-3em   { margin-right:  3.00em; }
+.hltr .end-4em   { margin-right:  4.00em; }
+.hltr .end-5em   { margin-right:  5.00em; }
+.hltr .end-6em   { margin-right:  6.00em; }
+.hltr .end-7em   { margin-right:  7.00em; }
+.hltr .end-8em   { margin-right:  8.00em; }
+.hltr .end-9em   { margin-right:  9.00em; }
+.hltr .end-10em  { margin-right: 10.00em; }
+
+/* 字上げ：縦組み用 */
+.vrtl .end-0,
+.vrtl .end-0em   { margin-bottom:  0;      }
+.vrtl .end-0em25 { margin-bottom:  0.25em; }
+.vrtl .end-0em50 { margin-bottom:  0.50em; }
+.vrtl .end-0em75 { margin-bottom:  0.75em; }
+.vrtl .end-1em   { margin-bottom:  1.00em; }
+.vrtl .end-1em25 { margin-bottom:  1.25em; }
+.vrtl .end-1em50 { margin-bottom:  1.50em; }
+.vrtl .end-1em75 { margin-bottom:  1.75em; }
+.vrtl .end-2em   { margin-bottom:  2.00em; }
+.vrtl .end-2em50 { margin-bottom:  2.50em; }
+.vrtl .end-3em   { margin-bottom:  3.00em; }
+.vrtl .end-4em   { margin-bottom:  4.00em; }
+.vrtl .end-5em   { margin-bottom:  5.00em; }
+.vrtl .end-6em   { margin-bottom:  6.00em; }
+.vrtl .end-7em   { margin-bottom:  7.00em; }
+.vrtl .end-8em   { margin-bottom:  8.00em; }
+.vrtl .end-9em   { margin-bottom:  9.00em; }
+.vrtl .end-10em  { margin-bottom: 10.00em; }
+
+
+/* 高さ
+---------------------------------------------------------------- */
+.height-auto   { height: auto; }
+
+/* ％指定 */
+.height-010per { height:  10%; }
+.height-020per { height:  20%; }
+.height-025per { height:  25%; }
+.height-030per { height:  30%; }
+.height-033per { height:  33%; }
+.height-040per { height:  40%; }
+.height-050per { height:  50%; }
+.height-060per { height:  60%; }
+.height-067per { height:  67%; }
+.height-070per { height:  70%; }
+.height-075per { height:  75%; }
+.height-080per { height:  80%; }
+.height-090per { height:  90%; }
+.height-100per { height: 100%; }
+
+/* 文字数指定 */
+.height-0em25 { height:  0.25em; }
+.height-0em50 { height:  0.50em; }
+.height-0em75 { height:  0.75em; }
+.height-1em   { height:  1.00em; }
+.height-1em25 { height:  1.25em; }
+.height-1em50 { height:  1.50em; }
+.height-1em75 { height:  1.75em; }
+.height-2em   { height:  2.00em; }
+.height-2em50 { height:  2.50em; }
+.height-3em   { height:  3.00em; }
+.height-4em   { height:  4.00em; }
+.height-5em   { height:  5.00em; }
+.height-5em25 { height:  5.25em; }
+.height-6em   { height:  6.00em; }
+.height-7em   { height:  7.00em; }
+.height-8em   { height:  8.00em; }
+.height-8em75 { height:  8.75em; }
+.height-9em   { height:  9.00em; }
+.height-10em  { height: 10.00em; }
+.height-11em  { height: 11.00em; }
+.height-12em  { height: 12.00em; }
+.height-13em  { height: 13.00em; }
+.height-14em  { height: 14.00em; }
+.height-15em  { height: 15.00em; }
+.height-20em  { height: 20.00em; }
+.height-30em  { height: 30.00em; }
+.height-40em  { height: 40.00em; }
+
+
+/* 高さの最大値
+---------------------------------------------------------------- */
+.max-height-none   { max-height: none; }
+
+/* ％指定 */
+.max-height-010per { max-height:  10%; }
+.max-height-020per { max-height:  20%; }
+.max-height-025per { max-height:  25%; }
+.max-height-030per { max-height:  30%; }
+.max-height-033per { max-height:  33%; }
+.max-height-040per { max-height:  40%; }
+.max-height-050per { max-height:  50%; }
+.max-height-060per { max-height:  60%; }
+.max-height-067per { max-height:  67%; }
+.max-height-070per { max-height:  70%; }
+.max-height-075per { max-height:  75%; }
+.max-height-080per { max-height:  80%; }
+.max-height-090per { max-height:  90%; }
+.max-height-100per { max-height: 100%; }
+
+/* 文字数指定 */
+.max-height-0em25 { max-height:  0.25em; }
+.max-height-0em50 { max-height:  0.50em; }
+.max-height-0em75 { max-height:  0.75em; }
+.max-height-1em   { max-height:  1.00em; }
+.max-height-1em25 { max-height:  1.25em; }
+.max-height-1em50 { max-height:  1.50em; }
+.max-height-1em75 { max-height:  1.75em; }
+.max-height-2em   { max-height:  2.00em; }
+.max-height-2em50 { max-height:  2.50em; }
+.max-height-3em   { max-height:  3.00em; }
+.max-height-4em   { max-height:  4.00em; }
+.max-height-5em   { max-height:  5.00em; }
+.max-height-5em25 { max-height:  5.25em; }
+.max-height-6em   { max-height:  6.00em; }
+.max-height-7em   { max-height:  7.00em; }
+.max-height-8em   { max-height:  8.00em; }
+.max-height-8em75 { max-height:  8.75em; }
+.max-height-9em   { max-height:  9.00em; }
+.max-height-10em  { max-height: 10.00em; }
+.max-height-11em  { max-height: 11.00em; }
+.max-height-12em  { max-height: 12.00em; }
+.max-height-13em  { max-height: 13.00em; }
+.max-height-14em  { max-height: 14.00em; }
+.max-height-15em  { max-height: 15.00em; }
+.max-height-20em  { max-height: 20.00em; }
+.max-height-30em  { max-height: 30.00em; }
+.max-height-40em  { max-height: 40.00em; }
+
+
+/* 幅
+---------------------------------------------------------------- */
+.width-auto   { width: auto; }
+
+/* ％指定 */
+.width-010per { width:  10%; }
+.width-020per { width:  20%; }
+.width-025per { width:  25%; }
+.width-030per { width:  30%; }
+.width-033per { width:  33%; }
+.width-040per { width:  40%; }
+.width-050per { width:  50%; }
+.width-060per { width:  60%; }
+.width-067per { width:  67%; }
+.width-070per { width:  70%; }
+.width-075per { width:  75%; }
+.width-080per { width:  80%; }
+.width-090per { width:  90%; }
+.width-100per { width: 100%; }
+
+/* 文字数指定 */
+.width-0em25 { width:  0.25em; }
+.width-0em50 { width:  0.50em; }
+.width-0em75 { width:  0.75em; }
+.width-1em   { width:  1.00em; }
+.width-1em25 { width:  1.25em; }
+.width-1em50 { width:  1.50em; }
+.width-1em75 { width:  1.75em; }
+.width-2em   { width:  2.00em; }
+.width-2em50 { width:  2.50em; }
+.width-3em   { width:  3.00em; }
+.width-4em   { width:  4.00em; }
+.width-5em   { width:  5.00em; }
+.width-5em25 { width:  5.25em; }
+.width-6em   { width:  6.00em; }
+.width-7em   { width:  7.00em; }
+.width-8em   { width:  8.00em; }
+.width-8em75 { width:  8.75em; }
+.width-9em   { width:  9.00em; }
+.width-10em  { width: 10.00em; }
+.width-11em  { width: 11.00em; }
+.width-12em  { width: 12.00em; }
+.width-13em  { width: 13.00em; }
+.width-14em  { width: 14.00em; }
+.width-15em  { width: 15.00em; }
+.width-20em  { width: 20.00em; }
+.width-30em  { width: 30.00em; }
+.width-40em  { width: 40.00em; }
+
+
+/* 幅の最大値
+---------------------------------------------------------------- */
+.max-width-none   { max-width: none; }
+
+/* ％指定 */
+.max-width-010per { max-width:  10%; }
+.max-width-020per { max-width:  20%; }
+.max-width-025per { max-width:  25%; }
+.max-width-030per { max-width:  30%; }
+.max-width-033per { max-width:  33%; }
+.max-width-040per { max-width:  40%; }
+.max-width-050per { max-width:  50%; }
+.max-width-060per { max-width:  60%; }
+.max-width-067per { max-width:  67%; }
+.max-width-070per { max-width:  70%; }
+.max-width-075per { max-width:  75%; }
+.max-width-080per { max-width:  80%; }
+.max-width-090per { max-width:  90%; }
+.max-width-100per { max-width: 100%; }
+
+/* 文字数指定 */
+.max-width-0em25 { max-width:  0.25em; }
+.max-width-0em50 { max-width:  0.50em; }
+.max-width-0em75 { max-width:  0.75em; }
+.max-width-1em   { max-width:  1.00em; }
+.max-width-1em25 { max-width:  1.25em; }
+.max-width-1em50 { max-width:  1.50em; }
+.max-width-1em75 { max-width:  1.75em; }
+.max-width-2em   { max-width:  2.00em; }
+.max-width-2em50 { max-width:  2.50em; }
+.max-width-3em   { max-width:  3.00em; }
+.max-width-4em   { max-width:  4.00em; }
+.max-width-5em   { max-width:  5.00em; }
+.max-width-5em25 { max-width:  5.25em; }
+.max-width-6em   { max-width:  6.00em; }
+.max-width-7em   { max-width:  7.00em; }
+.max-width-8em   { max-width:  8.00em; }
+.max-width-8em75 { max-width:  8.75em; }
+.max-width-9em   { max-width:  9.00em; }
+.max-width-10em  { max-width: 10.00em; }
+.max-width-11em  { max-width: 11.00em; }
+.max-width-12em  { max-width: 12.00em; }
+.max-width-13em  { max-width: 13.00em; }
+.max-width-14em  { max-width: 14.00em; }
+.max-width-15em  { max-width: 15.00em; }
+.max-width-20em  { max-width: 20.00em; }
+.max-width-30em  { max-width: 30.00em; }
+.max-width-40em  { max-width: 40.00em; }
+
+
+/* ダミー画像を非表示に
+---------------------------------------------------------------- */
+.dummy,
+img.keep-space {
+  display: none;
+}
+

@@ -1,0 +1,66 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: vertical-rl;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.default-sideways {
+-epub-text-orientation: sideways;
+}
+.default-upright {
+-epub-text-orientation: upright;
+}
+.c7131 {
+background-color: #FFFFFF; color: #000000;
+}
+.c7132 {
+page-break-after: always; display: block; -epub-writing-mode: vertical-rl;
+}
+.c7130 {
+display: inline-block; vertical-align: middle; -epub-writing-mode: horizontal-tb; width: 100%;
+}
+.c7133 {
+text-align: justify; display: inline-block; vertical-align: middle; height: 100%;
+}
+.c7133 rt {
+font-size: 50%;
+}
+.c7133 hr {
+border-style: none; background-color: #000000; width: 5px; height: 100%;
+}
+.c7133 hr:last-child {
+margin-left: 0;
+}
+.c7134 {
+text-align: center; text-indent: 0em; font-size: 0; line-height: 0; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c7135 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c7136 {
+line-height: 1; text-indent: 0; display: inline-block; height: 100%;
+}
+a[href] .c7136 {
+border: solid 1px #000000;
+}
+.c7137 {
+max-height: 100%; max-width: 100%; height: 100%;
+}
+a[href] .c7137 {
+max-width: 99%;
+}
+html {
+-epub-writing-mode: vertical-rl;
+}

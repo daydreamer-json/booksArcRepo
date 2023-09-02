@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<container xmlns="urn:oasis:names:tc:opendocument:xmlns:container" version="1.0">
+  <rootfiles><rootfile full-path="OEBPS/package.opf" media-type="application/oebps-package+xml"/></rootfiles>
+</container>
+<!-- Converted: 2012-11-27 22:24:49 +0900 -->
+<!-- Converter: release_20121023 [4cc2d650eee997a8a6fd8a5430cf5ed950a0cf65] -->

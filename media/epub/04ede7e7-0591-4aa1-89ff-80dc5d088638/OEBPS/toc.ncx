@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xml:lang='ja' version='2005-1' xmlns='http://www.daisy.org/z3986/2005/ncx/'>
+  <head>
+    <meta content='1' name='dtb:depth'/>
+    <meta content='0' name='dtb:totalPageCount'/>
+    <meta content='0' name='dtb:maxPageNumber'/>
+  <meta content='urn:uuid:ab09cd70-1ac3-0130-2a9e-482a142cf2ad' name='dtb:uid'/></head>
+  <docTitle><text/></docTitle>
+  <navMap><navPoint id='id-1' playOrder='1'><navLabel><text>カゲロウデイズＩ</text></navLabel><content src='a_1_6.xhtml#id--229a22fff2e421ac'/></navPoint><navPoint id='id-2' playOrder='2'><navLabel><text>人造エネミー</text></navLabel><content src='a_1_7.xhtml#id-27520c036440a458'/></navPoint><navPoint id='id-3' playOrder='3'><navLabel><text>カゲロウデイズII</text></navLabel><content src='a_1_8.xhtml#id--98efcdd6de48493'/></navPoint><navPoint id='id-4' playOrder='4'><navLabel><text>如月アテンション</text></navLabel><content src='a_1_10.xhtml#id-2bd8d78c6a6635dd'/></navPoint><navPoint id='id-5' playOrder='5'><navLabel><text>カゲロウデイズ</text></navLabel><content src='a_1_11.xhtml#id-ab736d744b25635'/></navPoint><navPoint id='id-6' playOrder='6'><navLabel><text>メカクシコード</text></navLabel><content src='a_1_13.xhtml#id-ea8b13d0f8d77f5'/></navPoint><navPoint id='id-7' playOrder='7'><navLabel><text>エピローグ</text></navLabel><content src='a_1_14.xhtml#id--39f3db71822c0e06'/></navPoint><navPoint id='id-8' playOrder='8'><navLabel><text>～あとがき『目を覆いたくなるような話』～</text></navLabel><content src='a_1_16.xhtml#id-3cf8dfacb3f89e96'/></navPoint><navPoint id='id-9' playOrder='9'><navLabel><text>SPECIAL BOOKLET</text></navLabel><content src='a_1_17.svg'/></navPoint></navMap>
+</ncx>

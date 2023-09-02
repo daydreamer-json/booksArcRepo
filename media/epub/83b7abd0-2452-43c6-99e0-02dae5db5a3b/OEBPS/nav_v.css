@@ -1,0 +1,198 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: vertical-rl;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.default-sideways {
+-epub-text-orientation: sideways;
+}
+.default-upright {
+-epub-text-orientation: upright;
+}
+.c42 {
+background-color: #FFFFFF; color: #000000;
+}
+.c43 {
+page-break-after: always; display: block; -epub-writing-mode: vertical-rl; height: 100%;
+}
+.c44 {
+text-align: justify; display: block;
+}
+.c44 rt {
+font-size: 50%;
+}
+.c44 hr {
+border-style: none; background-color: #000000; width: 5px; height: 100%;
+}
+.c44 hr:last-child {
+margin-left: 0;
+}
+.c45 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c46 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c47 {
+color: #000000; font-family: serif; font-size: 1.3em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c48 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c49 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c50 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c50 ruby rt {
+position: relative; left: 1px;
+}
+.c51 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c52 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c53 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c53 ruby rt {
+position: relative; left: 1px;
+}
+.c54 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c55 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c56 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c56 ruby rt {
+position: relative; left: 1px;
+}
+.c57 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c58 {
+line-height: 1; text-indent: 0; -epub-writing-mode: horizontal-tb;
+}
+.c59 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c60 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c60 ruby rt {
+position: relative; left: 1px;
+}
+.c61 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c62 {
+line-height: 1; text-indent: 0; -epub-writing-mode: horizontal-tb;
+}
+.c63 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c64 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c64 ruby rt {
+position: relative; left: 1px;
+}
+.c65 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c66 {
+width: 1em;
+}
+.c67 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c68 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c68 ruby rt {
+position: relative; left: 1px;
+}
+.c69 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c70 {
+width: 1em;
+}
+.c71 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c72 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c72 ruby rt {
+position: relative; left: 1px;
+}
+.c73 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c74 {
+line-height: 1; text-indent: 0; -epub-writing-mode: horizontal-tb;
+}
+.c75 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c76 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c76 ruby rt {
+position: relative; left: 1px;
+}
+.c77 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c78 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c79 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c79 ruby rt {
+position: relative; left: 1px;
+}
+.c80 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c81 {
+text-align: left; text-indent: -4em; min-width: 1.6em; border-top: solid transparent 4em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c82 {
+border-left: 1px solid #000000; font-size: 1.1em;
+}
+.c82 ruby rt {
+position: relative; left: 1px;
+}
+.c83 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+html {
+-epub-writing-mode: vertical-rl;
+}
+nav ol {
+list-style: none; margin: 0; -webkit-padding-start: 0;
+}
+nav li {
+margin: 0;
+}

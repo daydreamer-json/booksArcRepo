@@ -1,0 +1,330 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: horizontal-tb;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.invert-sideways {
+-epub-text-orientation: sideways;
+}
+.invert-upright {
+-epub-text-orientation: upright;
+}
+.c77 {
+background-color: #FFFFFF; color: #000000;
+}
+.c78 {
+page-break-after: always; display: block; -epub-writing-mode: horizontal-tb; width: 100%;
+}
+.c79 {
+text-align: justify; display: block;
+}
+.c79 rt {
+font-size: 50%;
+}
+.c79 hr {
+border-style: none; background-color: #000000; height: 5px; width: 100%;
+}
+.c79 hr:last-child {
+margin-bottom: 0;
+}
+.c80 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c81 {
+color: #000000; font-family: serif; font-size: 1.9500000000000002em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c82 {
+color: #000000; font-family: serif; font-size: 1.9500000000000002em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c83 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c84 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c85 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c86 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c87 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c88 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c89 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c90 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c91 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c92 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c93 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c94 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c95 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c96 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c97 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c98 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c99 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c100 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c101 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c102 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c103 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c104 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c105 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c106 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c107 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c108 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c109 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c110 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c111 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c112 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c113 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c114 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c115 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c116 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c117 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c118 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c119 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c120 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c121 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c122 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c123 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c124 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c125 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c126 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c127 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c128 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c129 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c130 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c131 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c132 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c133 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c134 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c135 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c136 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c137 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c138 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c139 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c140 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c141 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c142 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c143 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c144 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c145 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c146 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c147 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c148 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c149 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c150 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c151 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c152 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c153 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c154 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c155 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c156 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c157 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c158 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c159 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c160 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c161 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c162 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c163 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c164 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c165 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c166 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c167 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c168 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c169 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c170 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c171 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c172 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c173 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c174 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+html {
+-epub-writing-mode: horizontal-tb;
+}

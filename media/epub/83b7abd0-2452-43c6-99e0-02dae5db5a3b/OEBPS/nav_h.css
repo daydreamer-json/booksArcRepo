@@ -1,0 +1,159 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: horizontal-tb;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.invert-sideways {
+-epub-text-orientation: sideways;
+}
+.invert-upright {
+-epub-text-orientation: upright;
+}
+.c42 {
+background-color: #FFFFFF; color: #000000;
+}
+.c43 {
+page-break-after: always; display: block; -epub-writing-mode: horizontal-tb; width: 100%;
+}
+.c44 {
+text-align: justify; display: block;
+}
+.c44 rt {
+font-size: 50%;
+}
+.c44 hr {
+border-style: none; background-color: #000000; height: 5px; width: 100%;
+}
+.c44 hr:last-child {
+margin-bottom: 0;
+}
+.c45 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c46 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c47 {
+color: #000000; font-family: serif; font-size: 1.3em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c48 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c49 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c50 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c51 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c52 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c53 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c54 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c55 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c56 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c57 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c59 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c60 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c61 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c63 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c64 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c65 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c66 {
+height: 1em; vertical-align: text-bottom;
+}
+.c67 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c68 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c69 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c70 {
+height: 1em; vertical-align: text-bottom;
+}
+.c71 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c72 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c73 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c75 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c76 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c77 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c78 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c79 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c80 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c81 {
+text-align: left; text-indent: -4em; min-height: 1.6em; border-left: solid transparent 4em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c82 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c83 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+html {
+-epub-writing-mode: horizontal-tb;
+}
+nav ol {
+list-style: none; margin: 0; -webkit-padding-start: 0;
+}
+nav li {
+margin: 0;
+}

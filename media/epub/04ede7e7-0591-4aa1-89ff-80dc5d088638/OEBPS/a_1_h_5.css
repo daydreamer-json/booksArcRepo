@@ -1,0 +1,141 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: horizontal-tb;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.invert-sideways {
+-epub-text-orientation: sideways;
+}
+.invert-upright {
+-epub-text-orientation: upright;
+}
+.c41 {
+background-color: #FFFFFF; color: #000000;
+}
+.c42 {
+page-break-after: always; display: block; -epub-writing-mode: horizontal-tb; width: 100%;
+}
+.c43 {
+text-align: justify; display: block;
+}
+.c43 rt {
+font-size: 50%;
+}
+.c43 hr {
+border-style: none; background-color: #000000; height: 5px; width: 100%;
+}
+.c43 hr:last-child {
+margin-bottom: 0;
+}
+.c44 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c45 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c46 {
+color: #000000; font-family: serif; font-size: 1.3em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c47 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c48 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c49 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c50 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c51 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c52 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c53 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c54 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c55 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c56 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c58 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c59 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c60 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c61 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c62 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c63 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c64 {
+height: 1em; vertical-align: text-bottom;
+}
+.c65 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c66 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c67 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c68 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c69 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c70 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c71 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c72 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c73 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c74 {
+text-align: justify; text-indent: 0em; min-height: 1.6em; margin-left: 0px; margin-right: 0px; padding-left: 0px;
+}
+.c75 {
+border-bottom: 1px solid #000000; font-size: 1.1em;
+}
+.c76 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+html {
+-epub-writing-mode: horizontal-tb;
+}

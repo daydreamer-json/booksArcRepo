@@ -1,0 +1,171 @@
+body {
+font-family: serif;
+}
+body {
+margin: 0; line-height: 1.6em; -epub-writing-mode: vertical-rl;
+}
+p {
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+.vertical-sideways {
+-epub-text-orientation: sideways;
+}
+.vertical-upright {
+-epub-text-orientation: upright;
+}
+.default-sideways {
+-epub-text-orientation: sideways;
+}
+.default-upright {
+-epub-text-orientation: upright;
+}
+.c41 {
+background-color: #FFFFFF; color: #000000;
+}
+.c42 {
+page-break-after: always; display: block; -epub-writing-mode: vertical-rl; height: 100%;
+}
+.c43 {
+text-align: justify; display: block;
+}
+.c43 rt {
+font-size: 50%;
+}
+.c43 hr {
+border-style: none; background-color: #000000; width: 5px; height: 100%;
+}
+.c43 hr:last-child {
+margin-left: 0;
+}
+.c44 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c45 {
+color: #000000; font-family: serif; font-size: 1em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c46 {
+color: #000000; font-family: serif; font-size: 1.3em; line-height: 1.6em; letter-spacing: 0px;
+}
+.c47 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c48 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c49 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c49 ruby rt {
+position: relative; left: 1px;
+}
+.c50 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c51 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c52 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c52 ruby rt {
+position: relative; left: 1px;
+}
+.c53 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c54 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c55 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c55 ruby rt {
+position: relative; left: 1px;
+}
+.c56 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c57 {
+line-height: 1; text-indent: 0; -epub-writing-mode: horizontal-tb;
+}
+.c58 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c59 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c59 ruby rt {
+position: relative; left: 1px;
+}
+.c60 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c61 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c62 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c62 ruby rt {
+position: relative; left: 1px;
+}
+.c63 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c64 {
+width: 1em;
+}
+.c65 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c66 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c66 ruby rt {
+position: relative; left: 1px;
+}
+.c67 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c68 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c69 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c69 ruby rt {
+position: relative; left: 1px;
+}
+.c70 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c71 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c72 {
+border-right: 1px solid #000000; font-size: 1.1em;
+}
+.c72 ruby rt {
+position: relative; left: 1px;
+}
+.c73 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+.c74 {
+text-align: justify; text-indent: 0em; min-width: 1.6em; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;
+}
+.c75 {
+border-left: 1px solid #000000; font-size: 1.1em;
+}
+.c75 ruby rt {
+position: relative; left: 1px;
+}
+.c76 {
+color: #000000; font-family: serif; line-height: 1.6em; letter-spacing: 0px;
+}
+html {
+-epub-writing-mode: vertical-rl;
+}
