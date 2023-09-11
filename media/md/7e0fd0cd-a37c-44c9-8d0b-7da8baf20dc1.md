@@ -1,5 +1,5 @@
 <div align="center">
-<h1>カゲロウデイズIII　-the children reason-　SPECIAL EDITION</h1>
+<h1>カゲロウデイズⅢ　-the children reason-　SPECIAL EDITION</h1>
 <h3>じん（自然の敵Ｐ）</h3>
 <img src="../epub/7e0fd0cd-a37c-44c9-8d0b-7da8baf20dc1/item/image/cover.jpg">
 <img src="../epub/7e0fd0cd-a37c-44c9-8d0b-7da8baf20dc1/item/image/k001.jpg">
